@@ -35,7 +35,7 @@ header, footer, footer a {
 }
 
 header img {
-    width: 400/*  */;
+    width: auto400px;
     height: auto;
     float: left;
 }
@@ -56,4 +56,4 @@ footer {
     background-color: #eee;
     line-height: 1.5em;
 }
-</style>
+
