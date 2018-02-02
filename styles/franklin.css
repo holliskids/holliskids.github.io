@@ -25,7 +25,7 @@ h2 {
 header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
-    max-width: 870px/* xxxpx (px = pixel is a unit of measure)  */;
+    max-width: 950px/* xxxpx (px = pixel is a unit of measure)  */;
 }
 
 header, footer, footer a {
@@ -35,7 +35,7 @@ header, footer, footer a {
 }
 
 header img {
-    width: auto400px;
+   /* width: 400px; */
     height: auto;
     float: left;
 }
