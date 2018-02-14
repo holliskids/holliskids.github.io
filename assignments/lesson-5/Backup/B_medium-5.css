@@ -8,12 +8,13 @@
 
     nav button { display:none; }  /* hamburger button does not need to be shown */
 
+/*
     main figure img {
         width: 50%;
         float:left;
     } /* responsive images */
 
-    main section::after{
+   /* main section::after{
         content: "";
         clear: both;
         display: table
@@ -23,14 +24,22 @@
         margin: 0 0 0 0;
         text-align: center;
     }
-
+*/
     main section.forecast {
         display: block;
-        max-width: 64em;
+        width: 100%
+       /* max-width: 64em;*/
     }  /* show the 10-day forecast with the medium view and up */
 
 
-      table, th, td {
+    table th {
+        text-align: center;
+        font-size: 150%;
+        background-color: #C8C8C8;
+        color: #6BB18E;
+    }
+
+    table, th, td {
         border: 1px solid #666666;
         border-collapse: collapse;
         text-align: left;
@@ -85,38 +94,57 @@
         background-color: #33654C;
     }
 
+
     main {
         width: 100%;
         margin: 0 0 0 0;
     }
 
-   /* main figure img {
-        float: left;
-        width: 30%;
-        overflow: auto;
+    main .weather {
+        display: flex;
+        flex-direction:row;
+    }
+
+    main .weather figure {
+        width: 55%;
     }
 
 
-
-    main section {
-        margin-left: 30%;
-        overflow: auto;
+    main .weather figure img {
+        width: 100%;
+        margin: 5% 0 0 10%;
+        justify-content: center;
     }
 
-    main section.forecast {
-        left: clear;
-        margin: 0 0 0 0;
+    main .weather section {
+        width: 55%;
+        display: flex;
+        flex-direction: column;
     }
 
-    /*section
-    {
-        display: -webkit-inline-flex;
-        /*display: inline-block;
-        width: 50%;
-        height: auto;
-        margin: 1em;
+    .current {
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: center;
+    }
 
-    } */
+    .current img {
+        width: 35%;
+        justify-content: flex-end;
+    }
+
+    main .weather .currentweather .highlow {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+  /*  main #weather #currentweather #highlow {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+    }
+*/
 
 }
 
