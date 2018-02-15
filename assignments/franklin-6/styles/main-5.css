@@ -3,7 +3,7 @@
 * { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
 
 body {
-    font-family: 'Tangerine', serif;
+    font-family: 'Lobster', serif;
     font-size: 16px;
     /* Declare the base font-family - from google font api or other */
 }
@@ -18,8 +18,8 @@ header {
     text-align: center;
     padding: .5rem;
     color: white;
+   /* font-family: Georgia;*/
     font-family: 'Lobster', serif;
-    /*font-family: Georgia; */
 }
 
 header img {
