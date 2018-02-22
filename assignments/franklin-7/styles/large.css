@@ -1,0 +1,46 @@
+@media only screen and (min-width: 64rem) {
+/* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+
+  header, nav, main, footer {
+    max-width: none;/* the comma means apply the following CSS declarations to all of the listed elements */
+    /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+  }
+
+/*---------- Navigation ----------*/
+  nav ul li a{
+    padding: .6rem 1rem;
+  }
+
+/*---------- Header ------------*/
+  header h1 {
+    font-size: 250%;
+  }
+
+  header .subheading {
+    font-size: 180%;
+  }
+
+/*------Main----------------*/
+  main figure img {
+    width: 100%;
+}
+
+/*-------------- Section ------------*/
+  main section.forecast {
+    display: block;
+    max-width: none;
+}
+/* show the 10-day forecast with the medium view and up */
+
+  table, th, td {
+    border: 1px solid #666666;
+    border-collapse: collapse;
+    text-align: left;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin: auto;
+  }
+}
+
