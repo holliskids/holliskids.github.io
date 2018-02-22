@@ -1,6 +1,6 @@
 /* This main css file contains the default rules and is geared toward the small/phone view */
 
-{ box-sizing: border-box;}
+{box-sizing: border-box}
 /* This wildcard applies to all elements ensuring a box layout model */
 
 /***************** Body **********************/
@@ -153,7 +153,7 @@ article p.town-article img {
 .weatherPics img{
     width: 96%;
     margin-left: 2%;
-    margin-right:
+    margin-right: 2%;
 }
 
 
