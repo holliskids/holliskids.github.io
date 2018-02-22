@@ -1,4 +1,4 @@
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 64em) {
 /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
 
   header, nav, main, footer {
@@ -7,29 +7,61 @@
   }
 
 /*---------- Navigation ----------*/
-  nav ul li a{
+    nav{
+      font-size: 100%;
+    }
+
+    nav ul li a{
     padding: .6rem 1rem;
   }
 
 /*---------- Header ------------*/
   header h1 {
-    font-size: 250%;
+    font-size: 300%;
   }
 
   header .subheading {
-    font-size: 180%;
+    font-size: 200%;
   }
 
 /*------Main----------------*/
-  main figure img {
-    width: 100%;
-}
+    body{
+        font-size: 120%;
+    }
+
+   main h2{
+        font-size: 180%;
+    }
+
+    main h3{
+        font-size: 150%;
+    }
+
+    .franklinOverview{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .franklinPic{
+        width: 100%;
+    }
+
+/******************* Main For Gallery *****************/
+    .weatherPics{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 15px;
+        grid-template-rows: 1fr 1fr;
+    }
+
 
 /*-------------- Section ------------*/
   main section.forecast {
     display: block;
     max-width: none;
-}
+  }
 /* show the 10-day forecast with the medium view and up */
 
   table, th, td {
@@ -42,5 +74,13 @@
     padding-right: 1.5em;
     margin: auto;
   }
-}
 
+  footer aside {
+    font-size: 100%;
+  }
+
+  footer>p {
+    font-size: 95%;
+  }
+
+}

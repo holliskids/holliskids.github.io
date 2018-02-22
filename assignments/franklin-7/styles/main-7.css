@@ -1,6 +1,6 @@
 /* This main css file contains the default rules and is geared toward the small/phone view */
 
-/* { box-sizing: border-box;}
+{ box-sizing: border-box;}
 /* This wildcard applies to all elements ensuring a box layout model */
 
 /***************** Body **********************/
@@ -98,11 +98,16 @@ nav ul li a:hover {
 nav ul.hide{display: none;}
 
 /****************** Main ***************************/
+body{
+    font-size: 85%;
+}
+
 main h2, h3, h4 {
     background-color: #C8C8C8;
     color: #33654C;
     padding: .5em;
     text-align: center;
+    font-size: 105%;
 }
 
 main figure {
@@ -119,14 +124,9 @@ main figure img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
 }
 
-
-.current {
-  /*  text-align: center;*/
-    font-size: 100%
-}
 
 .highlow {
    order: -1;
@@ -136,11 +136,26 @@ main figure img {
     display: none;
 }
 
+
 article p.town-article img {
     /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
     width: 96%; /* fill the page in the small/phone view */
     margin: 0 0 .2rem 2%;
 }
+
+/******************* Main For Gallery *****************/
+.weatherPics{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 5px;
+}
+
+.weatherPics img{
+    width: 96%;
+    margin-left: 2%;
+    margin-right:
+}
+
 
 /******************* Footer ***************************/
 footer {

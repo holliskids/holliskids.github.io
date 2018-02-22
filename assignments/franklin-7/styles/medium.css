@@ -51,12 +51,13 @@
     nav ul.hide{
       display: flex;
       flex-flow: row nowrap;
-      align-items: center;
+      align-items: stretch;
       justify-content: flex-start;
     }
 
     li {
         border-right: 1px solid rgba(0,0,0,.3);
+        border-top: none;
     }
 
     nav ul li a{
@@ -73,6 +74,17 @@
 
 
 /*---------------- Main -----------------*/
+    body{
+        font-size: 100%;
+    }
+
+    main h2{
+        font-size: 150%;
+    }
+
+    h3, h4{
+        font-size: 120%;
+    }
 
     .franklinOverview{
       display: flex;
@@ -134,11 +146,19 @@
       width: 50%;
   } /* responsive images */
 
+/******************* Main For Gallery *****************/
+    .weatherPics{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 15px;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
 
-  /*article p.town-article::after50
-    content: "";
-    clear: both;
-    display: table;
-  }
-    */
+    .weatherPics img{
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+
 }
