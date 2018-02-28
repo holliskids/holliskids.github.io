@@ -10,6 +10,9 @@ body {
     /* Declare the base font-family - from google font api or other */
 }
 
+table {
+    width = 300px;
+}
 table, table caption {
     box-shadow: 10px 10px 40px #628ca6;
 
