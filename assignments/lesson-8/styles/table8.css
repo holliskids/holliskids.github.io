@@ -11,8 +11,9 @@ body {
 }
 
 table {
-    width = 300px;
+    width: 300px;
 }
+
 table, table caption {
     box-shadow: 10px 10px 40px #628ca6;
 
