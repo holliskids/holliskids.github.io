@@ -45,7 +45,7 @@
     <form action="thanks.html" method="post" enctype="multipart/form-data" name="storm" id="weatherEvent">
         <fieldset>
             <legend><span>Personal Information</span></legend>
-            <label><span>Full Name:</span><input name="fullname" type="text" value="" placeholder="Full Name" pattern="[a-zA-Z -._]{5,99}" required></label>
+            <label><span>Full Name:</span><input name="fullname" type="text" pattern="[A-Za-z -._]{5,}" placeholder="Full Name" required></label>
             <label><span>Email:</span><input name="email" type="email" value="" placeholder="zen@gmail.com"></label>
             <label><span>Phone:</span><input name="phone" type="tel" value="" placeholder="1235551234" pattern="[0-9]{10,20}" required></label>
             <label><span>Zip Code:</span><input name="zip" type="number" value="" required></label>
@@ -77,12 +77,11 @@
                 </select>
             </label>
 
-            <label><span>Are you in danger?<br>
+            <label><span>Are you in danger?<br></span></label>
                 <input type="radio" name="dangerLevel" value="yes">Yes<br>
                 <input type="radio" name="dangerLevel" value="no">No<br>
                 <input type="radio" name="dangerLevel" value="maybe">Maybe<br>
-                </span>
-            </label>
+
             <label><span>Additional Information:</span>
                 <textarea name="comments" rows="10" cols="30"></textarea>
             </label>
