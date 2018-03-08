@@ -146,6 +146,70 @@
       width: 50%;
   } /* responsive images */
 
+    /****************** Main For Home Page ********************/
+
+    main article{
+        margin: 2% 0 2% 0;
+
+    }
+
+    .weatherOverview, .greenvilleOverview{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        border: none;
+
+    }
+
+    #weather, #greenie {
+        border: #653933 1px solid;
+        box-shadow: 10px 10px 20px gray;
+        padding: 0 .5em;
+        margin: 2% 2% 0 0;
+    }
+
+    #weather {
+        width: 80%;
+    }
+
+   .weatherOverview img, .greenvilleOverview img {
+        padding-left: .5em;
+        margin-left: 2%;
+        width: 100%;
+    }
+
+    .franklinOver, .springfieldOverview{
+        display: flex;
+        flex-flow: row-reverse nowrap;
+        justify-content: space-between;
+        align-items: center;
+        border: none;
+    }
+
+    #frank, #spring {
+        border: #653933 1px solid;
+        box-shadow: 10px 10px 20px gray;
+        padding: 0 .5em;
+        margin-left: 2%;
+        margin-top: 2%;
+    }
+
+
+    .franklinOver img, .springfieldOverview img {
+        padding-right: .5em;
+        margin-right: 2%;
+    }
+
+    main article h2 {
+        width: 100%;
+    }
+
+    .cities img {
+        width: 100%;
+    }
+
+
 /******************* Main For Gallery *****************/
     .weatherPics{
         display: grid;

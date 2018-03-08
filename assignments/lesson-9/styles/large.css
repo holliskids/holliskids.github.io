@@ -37,7 +37,7 @@
         font-size: 150%;
     }
 
-    .franklinOverview{
+   .franklinOverview{
         display: flex;
         flex-flow: column nowrap;
         justify-content: flex-start;
@@ -48,7 +48,54 @@
         width: 100%;
     }
 
-/******************* Main For Gallery *****************/
+    /****************** Main For Home Page ********************/
+
+    #weather {
+        width: 90%;
+        margin-right: 0;
+        align-content: stretch;
+    }
+
+    .franklinOver, .greenvilleOverview, .springfieldOverview {
+        display: inline;
+        border: #653933 1px solid;
+        box-shadow: 10px 10px 20px gray;
+        padding: 0 .5em 0 .5em;
+    }
+
+    .franklinOver, .franklinOver img {
+        margin: 1em .5em 1em 0;
+        padding: 0 .8em 0 .5em;
+    }
+
+    .greenvilleOverview, .greenvilleOverview img {
+        margin: 1em .5em 1em .5em;
+        padding: 0 .8em 0 .5em;
+    }
+
+    .springfieldOverview, .springfieldOverview img {
+        margin: 1em 0 1em .5em;
+        padding: 0 .8em 0 .5em;
+    }
+
+    main section{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-content: stretch;
+    }
+
+    #frank, #spring, #greenie {
+        border: none;
+        box-shadow: none;
+    }
+
+
+    .weatherOverview img {
+        margin-left: 0;
+    }
+
+           /******************* Main For Gallery *****************/
     .weatherPics{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;

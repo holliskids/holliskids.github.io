@@ -119,6 +119,12 @@ main figure img {
     width: 100%;
 }
 
+main section article.franklinOverview {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
 .summary {
     margin: 0 2% 0 2%;
     display: flex;
