@@ -14,7 +14,7 @@
             <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views -->
     </head>
 
-    <body onload="todaydate(); windChill();">
+    <body onload="todaydate()">
         <header>
             <div class="headerItems">
                 <div class="picture">
@@ -54,25 +54,29 @@
 
                 <div class="summary">
                <!-- <h3>Weather Summary</h3>  -->
-                    <div class="current">
-                        Sunny
-                         <picture>
-                             <img src="images/sunny2_optimize.png" alt="Picture of Sun">
-                         </picture>
-                        <p>Wind Chill: <span id="chill"></span>&deg;F</p>
-                    </div>
-
+               <!--     <div class="current"> -->
                     <div class="highlow">
+                        <div class="current">
+                            <span id="currentWeather"></span>
+                            <picture>
+                                <img id="weatherIcon" src="" alt="Current Weather">
+                            </picture>
+                        </div>
                         <p>High: <span id="high">90</span>&deg;F</p>
                         <p>Low: <span id="low">66</span>&deg;F</p>
                     </div>
 
                     <div class="conditions">
-                        <p>Precipitation: 0%    </p>
-                        <p>Wind Speed: <span id="speed">5</span> mph SW</p>
+                        <p>Current Temp: <span id="currentTemp"></span>&deg;F</p>
+                        <p>Wind Speed: <span id="speed">5</span> mph <span id="direction"></span></p>
+                        <p>Wind Chill: <span id="chill"></span>&deg;F</p>
                     </div>
                 </div>
             </div>
+                <div class="tonight">
+                    <p>Forecast: <span id="forecastText"></span></p>
+                </div>
+
 
             <section class="forecast">
                 <h3>10 Day Forecast</h3>
@@ -133,7 +137,7 @@
 
         <script src="scripts/hamburger.js"></script>
         <script src="scripts/currentdate.js"></script>
-        <script src="scripts/windchill.js"></script>
+        <script src="scripts/wu-weather.js"></script>
 
     </body>
 </html>

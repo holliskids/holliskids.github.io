@@ -87,34 +87,23 @@
     }
 
     .franklinOverview{
-      display: flex;
-      flex-flow: row nowrap;
-      justify-content: flex-start;
-      align-items: stretch;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: flex-end;
     }
+
 
     .franklinPic{
         width: 40%;
     }
 
-    .summary {
-        width: 60%;
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-between;
-        align-self: center;
+    .current{
+        margin-right: 2em;
     }
 
-
-    .current {
-        /*  text-align: center;*/
-        font-size: 100%
-    }
-
-    .highlow {
-        order: -1;
-        flex-grow: 0;
-        flex-basis: auto;
+    .tonight {
+        text-align: center;
     }
 
   main section.forecast {
