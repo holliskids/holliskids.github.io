@@ -64,6 +64,62 @@
       box-shadow: 5px 5px 10px #888888;
     }
 
+/************** Main For Home Page ********************/
+    #greenie {
+        border: none;
+        box-shadow: none;
+        padding: 0 0;
+        margin: 0 0 0 0;
+    }
+
+    #frank, #spring {
+        border: none;
+        box-shadow: none;
+        padding: 0 0;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .greenvilleOverview, .franklinOver, .springfieldOverview{
+        display: inline;
+        border: #653933 1px solid;
+        box-shadow: 10px 10px 20px gray;
+    }
+
+    #weather {
+        width: 100%;
+    }
+
+    .threeCities {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+
+    .weatherOverview img, .greenvilleOverview img, .franklinOver img, .springfieldOverview img {
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: 0;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .franklinOver {
+        margin-right: .5em;
+    }
+
+    .greenvilleOverview {
+        margin-right: .5em;
+        margin-left: .5em;
+    }
+
+    .springfieldOverview {
+        margin-left: .5em;
+    }
+
+    .threeCities img {
+        width: 100%;
+    }
 
 /*-------------- Section ------------*/
   main section.forecast {
