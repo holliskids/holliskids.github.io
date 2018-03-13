@@ -96,10 +96,11 @@
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
+       align-content: flex-end;
     }
 
 
-   .weatherOverview img, .greenvilleOverview img, .franklinOver img, .springfieldOverview img {
+   .threeCities img {
         padding-left: 0;
         padding-right: 0;
         margin-right: 0;
@@ -119,12 +120,6 @@
     .springfieldOverview {
         margin-left: .5em;
     }
-
-
-    .threeCities img {
-        width: 100%;
-    }
-
 
 /*-------------- Section ------------*/
   main section.forecast {
