@@ -101,7 +101,7 @@ main h2, h3, h4 {
     color: #33654C;
     padding: .5em;
     text-align: center;
-    font-size: 115%;
+    font-size: 105%;
 }
 
 main figure {
@@ -141,9 +141,6 @@ article p.town-article img {
     margin: 0 0 .2rem 2%;
 }
 
-div.town-info {
-    text-align: center;
-}
 /******************* Main For Gallery *****************/
 .weatherPics{
     display: grid;
