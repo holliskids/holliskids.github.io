@@ -216,6 +216,21 @@ body{
         margin: 1%;
     }
 
+/******************* Event Page **********************/
+    .cycleDivideEvent h2{
+        font-size: 300%;
+    }
+
+    .cycleDivideEvent h3{
+       font-size: 200%;
+    }
+
+    .cycleDivideEvent{
+        background-image: url("../images/eventPage-medium.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
 
 /******************* Main For Gallery *****************/
     .weatherPics{
