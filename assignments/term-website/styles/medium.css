@@ -182,35 +182,41 @@ body{
 /******************* Adventure Tour Page **************/
 
     .trailInfo h3{
-        font-size: 175%;
+        font-size: 145%;
+        margin-bottom: 0;
+        padding-bottom: 0;
     }
 
     .trailInfo ul{
         font-size: 120%;
-        width: 75%;
-        order: -1;
-        padding-left: 2%;
     }
 
     .trailInfo .sourdough, .trailInfo .emeraldLake{
+        flex-basis: 48%;
+    }
+
+    .tourOptions{
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
-        align-items: flex-end;;
-
+        align-items: stretch;
     }
 
-    .trailInfo .sourdough img, .trailInfo .emeraldLake img{
+    main .trailPic img{
+        width: 100%;
+    }
+
+    main .trailPic{
         margin: 0;
-        padding-right: 3%;
-        padding-bottom: 0;
+        padding: 0;
     }
-
 
     .trailInfo{
         border: 3px groove #653933;
         margin: 1%;
     }
+
+
 /******************* Main For Gallery *****************/
     .weatherPics{
         display: grid;

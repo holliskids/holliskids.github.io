@@ -79,6 +79,19 @@
         margin: 2% 1% 2% 1%;
     }
 
+/******************* Contact Us **********************/
+    .formInfo{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: baseline;
+    }
+
+    fieldset {
+        flex-basis: 50%;
+    }
+
+
 /****************** Sales Page *****************************/
     .navigation > li {
         width: 20%;

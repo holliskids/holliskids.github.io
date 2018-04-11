@@ -290,44 +290,42 @@ table tfoot {
 }
 
 /****************** Adventure Tour Page ********************/
-/*.trailInfo h3{
-    font-size: 125%;
-    margin-top: 10%;
-}
-
-.trailInfo h4{
-    font-size: 110%;
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
-
-.trailInfo p{
-    text-align: justify;
-    padding-bottom: 2%;
-    padding-top: 0;
-    margin: 0 2% 0 2%;
-}
-*/
 .trailInfo li{
     border-top: none;
     border-right: none;
 }
 
+.trailInfo{
+    border: 3px groove #653933;
+    margin: 2%;
+}
 
-.sourdough img, .emeraldLake img{
+main .trailPic{
+    margin: 0;
+    padding: 0;
+}
+
+main .trailPic img{
     width: 100%;
 }
-/****************** Main For Storm Center Form *************/
 
-form#weatherEvent{
-    margin: 1em 3%;
+/****************** Main For Contact Form *************/
+.map{
+    margin: 1em 1em 1em 1em;
+}
+
+.map h4{
+    font-size: 110%;
+    text-align: left;
+    margin: 0;
+    padding: 0;
 }
 
 fieldset{
-    background-color: #C8C8C8;
+ /*   background-color: #C8C8C8; */
     border-radius: .8em;
-    margin: 1.5em 0;
     border: #653933 solid 1px;
+    margin: 2%;
 }
 
 legend{
@@ -347,23 +345,19 @@ label{
 label span {
     display: block;
     font-size: .8em;
-    color: #33654C;
+   /* color: #33654C; */
     padding-top: .9em;
     padding-bottom: .2em;
-}
-
-#ratingvalue {
-    color: #33654C;
 }
 
 input.submitBtn {
     color: #fff;
     border: solid 1px #111;
     border-radius: 7px;
-    width: 50%;
+    width: 25%;
     margin: .5em 0;
     font-size: 1em;
-    font-family: 'Bree Serif', serif;
+    /*font-family: 'Bree Serif', serif; */
     padding: .6em;
     background: #653933;
     box-shadow: 4px 4px 10px #666;
