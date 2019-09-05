@@ -202,14 +202,18 @@ body{
         align-items: stretch;
     }
 
-    main .trailPic img{
+    .trailPic{
+
+    }
+
+   /* main .trailPic img{
         width: 100%;
     }
 
     main .trailPic{
         margin: 0;
         padding: 0;
-    }
+    } */
 
     .trailInfo{
         border: 3px groove #653933;

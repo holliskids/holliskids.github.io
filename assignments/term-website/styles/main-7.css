@@ -299,7 +299,7 @@ table tfoot {
     border: 3px groove #653933;
     margin: 2%;
 }
-
+/*
 main .trailPic{
     margin: 0;
     padding: 0;
@@ -307,6 +307,14 @@ main .trailPic{
 
 main .trailPic img{
     width: 100%;
+} */
+
+.trailPic h2{
+    padding: 15%;
+    margin: 0;
+    background-image: url("../images/sourdoughTrail-small.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /****************** Main For Contact Form *************/
