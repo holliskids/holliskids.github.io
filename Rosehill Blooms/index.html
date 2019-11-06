@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Rosehill Blooms</title>
+        <meta name="author" content="Christy Hollis">
+        <meta name="description" content="Professional custom floral arrangements in Overland Park, Kansas by Wendy Rindlisbacher">
+        <!-- external style references in the proper cascading order -->
+            <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">   <!-- Google API font reference -->
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+            <link href="https://fonts.googleapis.com/css?family=PT+Sans:700" rel="stylesheet">
+            <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+            <link href="https://fonts.googleapis.com/css?family=Lato:700i&display=swap" rel="stylesheet">
+            <link href="styles/main-7.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+            <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+            <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views -->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    </head>
+
+    <body onload="todaydate()">
+        <header>
+            <div class="headerItems">
+                <figure class="icon">
+           <!--         <picture>
+                        <source srcset="images/small.png" media="(max-width: 37.5em)">
+                        <source srcset="images/medium.png" media="(max-width: 64em)">
+                        <source srcset="images/large.png">
+                        <img src="images/large.png" alt="Weather Logo">
+                    </picture>      -->
+                    <!--<a href="index.html"><img src="images/mtspoke-icon.png" alt="Weather Logo"></a> -->
+                </figure>
+
+                <div class="title">
+                    <h1>Rosehill Blooms</h1>
+                    <div class="subheading">Professional Designer Florist<br>Overland Park, Kansas</div>
+                </div>
+            </div>
+        </header>
+
+<!-- site navigation use placeholder references -->
+        <nav>
+            <button onclick="toggleNavMenu()">&#9776;</button>
+             <ul id="primaryNav" class="hide">
+                 <li class="active"><a href="#">Home</a></li>
+                 <li><a href="adventureToursPage.html">Boutonnieres</a></li>
+                 <li><a href="eventPage.html">Corsages</a></li>
+                 <li><a href="salesPage.html">Custom Floral Arrangements</a></li>
+                 <li><a href="servicePage.html">Weddings</a></li>
+                 <li><a href="gallery.html">Gallery</a></li>
+                 <li><a href="contactPage.html">Contact</a></li>
+             </ul>
+        </nav>
+
+        <main>
+            <div class="websiteBody1">
+                <article class="boutt">
+                    <a href="eventPage.html">
+                        <picture>
+                        <!--   <source srcset="images/home-page-small.jpg" media="(max-width: 37.5em)">
+                            <source srcset="images/home-page-medium.jpg" media="(max-width: 64em)">
+                            <source srcset="images/home-page-large.jpg">  -->
+                            <img src="images/boutt.jpg" alt="Picture of bouttoniere">
+                            <div class="thumbnail">Boutonnieres</div>
+                        </picture>
+                    </a>
+                </article>
+
+                <article class="corsage">
+                    <a href="eventPage.html">
+                        <picture>
+                        <!--    <source srcset="images/home-page-small.jpg" media="(max-width: 37.5em)">
+                            <source srcset="images/home-page-medium.jpg" media="(max-width: 64em)">
+                            <source srcset="images/home-page-large.jpg">  -->
+                            <img src="images/corsage.jpg" alt="Picture of corsage">
+                            <div class="thumbnail">Corsages</div>
+                        </picture>
+                    </a>
+                </article>
+            </div>
+
+            <div class="websiteBody2">
+                <article class="arrangement">
+                    <a href="eventPage.html">
+                        <picture>
+                            <!--    <source srcset="images/home-page-small.jpg" media="(max-width: 37.5em)">
+                            <source srcset="images/home-page-medium.jpg" media="(max-width: 64em)">
+                            <source srcset="images/home-page-large.jpg">  -->
+                            <img src="images/arrangement.jpg" alt="Picture of floral arrangement">
+                            <div class="thumbnail">Custom Arrangements</div>
+                        </picture>
+                    </a>
+                </article>
+
+                <article class="wedding">
+                    <a href="eventPage.html">
+                        <picture>
+                            <!--    <source srcset="images/home-page-small.jpg" media="(max-width: 37.5em)">
+                            <source srcset="images/home-page-medium.jpg" media="(max-width: 64em)">
+                            <source srcset="images/home-page-large.jpg">  -->
+                            <img src="images/wedding.jpg" alt="Picture of wedding flowers">
+                            <div class="thumbnail">Weddings</div>
+                        </picture>
+                    </a>
+                </article>
+            </div>
+        </main>
+
+        <footer>
+            <aside>
+                Rosehill Blooms &#9734;
+                123 Main St. &#9734;
+                Overland Park, KS 59715<br>
+                (406)518-9418 &#9734;
+                Info@MtSpoke.com<br>
+                <a href="resourcePage.html">Sources</a><br>
+                <a href="template.html">Overview Video</a>
+            </aside>
+            <p class="footer-bar">&copy;2019 All Rights Reserved | Rosehill Blooms | <span id="dateToday"></span></p>
+        </footer>
+
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/currentdate.js"></script>
+
+    </body>
+</html>
+
+
