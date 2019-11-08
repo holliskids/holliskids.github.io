@@ -7,7 +7,7 @@
 body {
     font-family: 'PT Sans', sans-serif;
     font-size: 100%;
-    background-color: #391340;
+    background-color: #FF579F;
   /*  padding: 1% 1%;  */
 }
 
@@ -22,7 +22,7 @@ header, nav, main, footer {
 
 /**************** Header **********************/
 .headerItems {
-    background-color: #CD45E6;
+    background-color: #B32B65;
     padding: .5em 2%;
     color: black;
     font-family: 'Tangerine', serif;
@@ -51,7 +51,7 @@ header .subheading {
 
 /***************** Navigation *********************/
 nav {
-    background-color: #722680;
+    background-color: #FFF063;
 }
 
 nav button {
@@ -89,7 +89,7 @@ nav ul li a {
 
 nav ul li.active a {
  /*   background-color: rgba(0,0,0,.2);  */
-    color: #FFFFFF;
+    color: #349EB3;
 }
 
 nav ul li a:hover {
@@ -126,6 +126,7 @@ main h2, h3, h4{
 main div.websiteBody1, div.websiteBody2 {
     display: flex;
     flex-direction: row;
+    align-content:space-around;
 }
 
 .boutt img, .corsage img, .arrangement img, .wedding img{
@@ -137,12 +138,26 @@ main div.websiteBody1, div.websiteBody2 {
     text-align: center;
 }
 
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
 .thumbnail {
     position: absolute;
-    top: 90%;
-    left: 50%;
+    top: 80%;
+    left: 25%;
     transform: translate(-50%, -50%);
-    color: white;
+ /*   margin: 30px;  */
+    padding: 3%;
+    background-color: #ffffff;
+    border: 2px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    color: black;
 }
 
 
@@ -410,7 +425,7 @@ input.submitBtn {
 
 /******************* Footer ***************************/
 footer {
-    background-color: #653933;
+    background-color: #349EB3;
     text-align: center;
     padding: .5rem;
     color: white;
@@ -420,7 +435,7 @@ footer aside {
     font-size: 85%;
 }
 
-footer a:link{ color: #33654C}
+footer a:link{ color: #349EB3}
 footer a:visited{ color: white}
 footer a:hover{ color: rgba(0,0,0,.4)}
 footer a:active{ color: white}
