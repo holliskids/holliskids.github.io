@@ -6,11 +6,34 @@ header, nav, main, footer {
  }
 body{
     font-size: 100%;
+    background-color: #31B3CC;
 }
 
   /*-------------- Header ----------------*/
+    .headerItems {
+        padding: 1.5em 0;
+        margin-bottom: 0;
+        text-align: center
+            /* display: flex;
+            align-items:flex-end; */
+    }
 
+    .title h1 {
+        padding: 0;
+        margin: 0;
+        color: black;
+        font-family: 'Tangerine', serif;
+        text-shadow: 4px 4px 4px #aaa;
+        font-size: 650%;
+    }
 
+    header .subheading {
+        font-family: 'Lato', sans-serif;
+        font-size: 225%;
+        text-shadow: 0px 0px 0px;
+        color: black;
+        padding: 0 0;
+    }
   /*********** Navigation ****************/
   nav button { display:none; }  /* hamburger button does not need to be shown */
 
@@ -21,11 +44,6 @@ body{
     background: linear-gradient(to bottom, #FFF063 0%,#D33B6F 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFF063', endColorstr='#D33B6F',GradientType=0 ); /* IE6-9 */
   }
-
-   /* li{
-        border-right: 1px solid rgba(0,0,0,.3);
-    }
-    */
 
     nav ul {
         list-style-type: none;
@@ -47,6 +65,8 @@ body{
     li {
         border-right: 1px solid rgba(0,0,0,.3);
         border-top: none;
+        padding: .5em .2em;
+        font-size: 120%;
     }
 
     nav ul li a{
@@ -72,100 +92,52 @@ body{
     }
 
 /****************** Main For Home Page ********************/
-    .cycleDivide{
-        background-image: url("../images/bike-montana2-flip-medium.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
+       div.websiteBody1 {
+        margin-top: .2em;
     }
 
-    .cycleDivide h2{
-        font-size: 150%;
-        width: 35%;
-        margin-top: 1%;
-        margin-bottom: 0;
-        padding: 0;
-    }
-
-    .cycleDivide p, .cycleDivide a{
-        width: 35%;
-        margin-left: 1%;
-    }
-
-    .websiteBody{
+    .options {
         display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
-        align-items: stretch;
+        align-items: baseline;
     }
 
-    .cycleDivide{
-        flex-basis: 100%;
-        margin: 0 0 0 0;
+  /*  main div.websiteBody1, div.websiteBody2 {
+        display: ;
+        flex-direction: row;
+        align-content:space-around;
+    }*/
+
+    .boutt img, .corsage img, .arrangement img, .wedding img{
+        width: 98%;
     }
 
-    .saleService{
-        flex-basis: 32%;
-        margin: 2% 1% 2% 0;
-    }
-
-    .events{
-        flex-basis: 32%;
-        margin: 2% 0 2% 1%;
-    }
-
-    .tours{
-        flex-basis: 32%;
-        margin: 2% 1% 2% 1%;
-    }
-
-/****************** Sales Page *****************************/
-   .navigation > li {
-        width: 30%;
-        left: -22%;
-        border-right: 3rem solid #48817D;
-        -webkit-transition: left 1000ms;
-        -moz-transition: left 1000ms;
-        -ms-transition: left 1000ms;
-        -o-transition: left 1000ms;
-        transition: left 1000ms;
-    }
-
-    li.openSesame {
-        left:0px;
-    }
-
-    .bikeSell{
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-around;
-        align-items: stretch;
-    }
-
-    .forSale h3{
+    .boutt, .corsage, .arrangement, .wedding {
+        position: relative;
         text-align: center;
     }
 
-    .forSale{
-        background-image: url("../images/bike-montana2-flip-medium.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
+    div.transbox {
+        margin: 30px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.6;
+        filter: alpha(opacity=60); /* For IE8 and earlier */
     }
 
-    article.detail{
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-around;
-        align-items: center;
-        margin: 0 5% 2% 5%;
+    .thumbnail {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /*   margin: 30px;  */
+        padding: 3%;
+        background-color: #ffffff;
+        border: 2px solid black;
+        opacity: 0.6;
+        filter: alpha(opacity=60); /* For IE8 and earlier */
+        color: black;
     }
 
-    .detail img{
-        width: 100%;
-    }
-
-    .barghie {
-        flex-basis: 50%;
-    }
 
 /******************* Adventure Tour Page **************/
 

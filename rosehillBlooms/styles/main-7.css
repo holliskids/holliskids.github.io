@@ -23,10 +23,11 @@ header, nav, main, footer {
 /**************** Header **********************/
 .headerItems {
     background-color: #B32B65;
-    padding: 0 .5em;
+    padding: .5em;
     margin-bottom: 0;
-    display: flex;
-    align-items:flex-end;
+    text-align: center
+   /* display: flex;
+    align-items:flex-end; */
 }
 
 .icon{
@@ -69,8 +70,8 @@ nav {
 
 nav button {
  /*   margin: .2rem 2%; */
-    margin: 0 0 0 0;
-    align-self: flex-start;
+    margin-left:35%;
+    align-self: center;
     background-color: transparent;
     border: none;
     font-size: 1.5rem;

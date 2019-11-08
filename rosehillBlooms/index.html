@@ -20,26 +20,25 @@
 
     <body onload="todaydate()">
         <header>
-            <div class="title">
-                <h1>Rosehill Blooms</h1>
-            </div>
             <div class="headerItems">
                 <div class="icon">
-                  <picture>
+        <!--          <picture>
                     <source srcset="images/rosehillIcon-small.jpg" media="(max-width: 37.5em)">
                         <source srcset="images/rosehillIcon-medium.jpg" media="(max-width: 64em)">
                         <source srcset="images/rosehillIcon-large.jpg">
                         <img src="images/rosehillIcon-large.jpg" alt="Rosehill Blooms Logo">
-                    </picture>
+                    </picture>     -->
                 </div>
-
-                    <div class="subheading">Designer Florist<br>Overland Park, Kansas</div>
+                <div class="title">
+                    <h1>Rosehill Blooms</h1>
+                </div>
+                <div class="subheading">Designer Florist<br>Overland Park, Kansas</div>
             </div>
         </header>
 
 <!-- site navigation use placeholder references -->
         <nav>
-            <button onclick="toggleNavMenu()">&#9776;</button>
+            <button onclick="toggleNavMenu()">&#9776; Menu</button>
              <ul id="primaryNav" class="hide">
                  <li class="active"><a href="#">Home</a></li>
                  <li><a href="corsage.html">Corsage</a></li>
@@ -52,7 +51,8 @@
         </nav>
 
         <main>
-            <div class="websiteBody1">
+          <div class="options">
+              <div class="websiteBody1">
                 <article class="boutt">
                     <a href="boutt.html">
                         <picture>
@@ -60,8 +60,8 @@
                             <source srcset="images/bout-corsage/bouttIcon-medium.jpg" media="(max-width: 64em)">
                             <source srcset="images/bout-corsage/bouttIcon-large.jpg">
                             <img src="images/bout-corsage/bouttIcon.jpg" alt="Picture of bouttoniere">
-                            <div class="thumbnail">Boutonnieres</div>
                         </picture>
+                        <div class="thumbnail">Boutonnieres</div>
                     </a>
                 </article>
 
@@ -72,8 +72,8 @@
                             <source srcset="images/bout-corsage/corsageIcon-medium.jpg" media="(max-width: 64em)">
                             <source srcset="images/bout-corsage/corsageIcon-large.jpg">
                             <img src="images/bout-corsage/corsageIcon.jpg" alt="Picture of corsage">
-                            <div class="thumbnail">Corsages</div>
                         </picture>
+                        <div class="thumbnail">Corsages</div>
                     </a>
                 </article>
             </div>
@@ -86,8 +86,8 @@
                             <source srcset="images/wedding/weddingIcon-medium.jpg" media="(max-width: 64em)">
                             <source srcset="images/wedding/weddingIcon-large.jpg">
                             <img src="images/wedding/weddingIcon.jpg" alt="Picture of wedding flowers">
-                            <div class="thumbnail">Occasions</div>
                         </picture>
+                        <div class="thumbnail">Occasions</div>
                     </a>
                 </article>
 
@@ -98,10 +98,11 @@
                             <source srcset="images/arrangement/seasonIcon-medium.jpg" media="(max-width: 64em)">
                             <source srcset="images/arrangement/seasonIcon-large.jpg">
                             <img src="images/arrangement/seasonIcon-large.jpg" alt="Picture of floral arrangement">
-                            <div class="thumbnail">Seasonal Creations</div>
                         </picture>
+                        <div class="thumbnail">Seasonal Creations</div>
                     </a>
                 </article>
+                </div>
             </div>
         </main>
 
