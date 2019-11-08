@@ -24,14 +24,20 @@ header, nav, main, footer {
 .headerItems {
     background-color: #B32B65;
     padding: .5em 2%;
-    color: black;
-    font-family: 'Tangerine', serif;
-    text-shadow: 4px 4px 4px #aaa;
+    display: flex;
+    align-items:flex-end;
+}
+
+.icon{
+    margin-right: 5%;
 }
 
 .title h1 {
     padding: 0;
     margin: 0;
+    color: black;
+    font-family: 'Tangerine', serif;
+    text-shadow: 4px 4px 4px #aaa;
     font-size: 400%;
 }
 
@@ -122,6 +128,9 @@ main h2, h3, h4{
 }
 
 /****************** Main For Home Page ********************/
+div.websiteBody1 {
+    margin-top: .2em;
+}
 
 main div.websiteBody1, div.websiteBody2 {
     display: flex;
@@ -148,8 +157,8 @@ div.transbox {
 
 .thumbnail {
     position: absolute;
-    top: 80%;
-    left: 25%;
+    top: 65%;
+    left: 50%;
     transform: translate(-50%, -50%);
  /*   margin: 30px;  */
     padding: 3%;
@@ -191,71 +200,7 @@ li.openSesame {
     left:0px;
 }
 
-.bikeSell{
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-around;
-    align-items: center;
-}
 
-.bikeSell img{
-    width: 100%;
-}
-
-.barghest, .spectral1, .spectral2{
-    border: 2px solid #653933;
-    margin: 1% 2% 1% 2%;
-}
-
-.forSale h3{
-    font-size: 120%;
-    margin: 0;
-    padding: 0 0 1% 0;
-    text-align: justify;
-}
-
-.forSale a:link{ color: black}
-.forSale a:visited{ color: #653933}
-.forSale a:hover{ color: rgba(0,0,0,.4)}
-.forSale a:active{ color: #33654C}
-
-.forSale{
-    background-image: url("../images/bike-montana2-flip-small.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-
-.bicycle h2{
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-
-.bicycle h3{
-    margin-top: 0
-
-}
-
-.specs li{
-    border-top: none;
-    border-right: none;
-}
-
-.detail{
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-around;
-    align-content: flex-end;
-}
-
-.barghie img{
-    width: 100%;
-}
-
-.specs{
-    margin-top: 0;
-    padding-top: 0;
-}
 
 /****************** Service Page **************************/
 table {
@@ -435,7 +380,7 @@ footer aside {
     font-size: 85%;
 }
 
-footer a:link{ color: #349EB3}
+footer a:link{ color: white}
 footer a:visited{ color: white}
 footer a:hover{ color: rgba(0,0,0,.4)}
 footer a:active{ color: white}

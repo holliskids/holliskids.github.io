@@ -21,15 +21,14 @@
     <body onload="todaydate()">
         <header>
             <div class="headerItems">
-                <figure class="icon">
-           <!--         <picture>
-                        <source srcset="images/small.png" media="(max-width: 37.5em)">
-                        <source srcset="images/medium.png" media="(max-width: 64em)">
-                        <source srcset="images/large.png">
-                        <img src="images/large.png" alt="Weather Logo">
-                    </picture>      -->
-                    <!--<a href="index.html"><img src="images/mtspoke-icon.png" alt="Weather Logo"></a> -->
-                </figure>
+                <div class="icon">
+                  <picture>
+                    <source srcset="images/rosehillIcon-small.jpg" media="(max-width: 37.5em)">
+                        <source srcset="images/rosehillIcon-medium.jpg" media="(max-width: 64em)">
+                        <source srcset="images/rosehillIcon-large.jpg">
+                        <img src="images/rosehillIcon-large.jpg" alt="Rosehill Blooms Logo">
+                    </picture>
+                </div>
 
                 <div class="title">
                     <h1>Rosehill Blooms</h1>
@@ -43,11 +42,11 @@
             <button onclick="toggleNavMenu()">&#9776;</button>
              <ul id="primaryNav" class="hide">
                  <li class="active"><a href="#">Home</a></li>
-                 <li><a href="corsageBout.html">Corsage & Boutonniere</a></li>
-                 <li><a href="salesPage.html">Custom Floral Arrangements</a></li>
-                 <li><a href="servicePage.html">Weddings</a></li>
-                 <li><a href="gallery.html">Gallery</a></li>
-                 <li><a href="eventPage.html">About</a></li>
+                 <li><a href="corsage.html">Corsage</a></li>
+                 <li><a href="boutinniere.html">Boutinniere</a></li>
+                 <li><a href="occasions.html">Occasions</a></li>
+                 <li><a href="seasonal.html">Seasonal Arrangements</a></li>
+                 <li><a href="about.html">About</a></li>
                  <li><a href="contactPage.html">Contact</a></li>
              </ul>
         </nav>
@@ -57,9 +56,9 @@
                 <article class="boutt">
                     <a href="eventPage.html">
                         <picture>
-                        <!--   <source srcset="images/home-page-small.jpg" media="(max-width: 37.5em)">
-                            <source srcset="images/home-page-medium.jpg" media="(max-width: 64em)">
-                            <source srcset="images/home-page-large.jpg">  -->
+                        <source srcset="images/bout-corsage/bouttIcon-small.jpg" media="(max-width: 37.5em)">
+                            <source srcset="images/bout-corsage/bouttIcon-medium.jpg" media="(max-width: 64em)">
+                            <source srcset="images/bout-corsage/bouttIcon-large.jpg">
                             <img src="images/bout-corsage/bouttIcon.jpg" alt="Picture of bouttoniere">
                             <div class="thumbnail">Boutonnieres</div>
                         </picture>
@@ -69,9 +68,9 @@
                 <article class="corsage">
                     <a href="eventPage.html">
                         <picture>
-                        <!--    <source srcset="images/home-page-small.jpg" media="(max-width: 37.5em)">
-                            <source srcset="images/home-page-medium.jpg" media="(max-width: 64em)">
-                            <source srcset="images/home-page-large.jpg">  -->
+                        <source srcset="images/bout-corsage/corsageIcon-small.jpg" media="(max-width: 37.5em)">
+                            <source srcset="images/bout-corsage/corsageIcon-medium.jpg" media="(max-width: 64em)">
+                            <source srcset="images/bout-corsage/corsageIcon-large.jpg">
                             <img src="images/bout-corsage/corsageIcon.jpg" alt="Picture of corsage">
                             <div class="thumbnail">Corsages</div>
                         </picture>
@@ -80,26 +79,26 @@
             </div>
 
             <div class="websiteBody2">
-                <article class="arrangement">
+                <article class="wedding">
                     <a href="eventPage.html">
                         <picture>
-                            <!--    <source srcset="images/home-page-small.jpg" media="(max-width: 37.5em)">
-                            <source srcset="images/home-page-medium.jpg" media="(max-width: 64em)">
-                            <source srcset="images/home-page-large.jpg">  -->
-                            <img src="images/arrangement/arrangementIcon.jpg" alt="Picture of floral arrangement">
-                            <div class="thumbnail">Arrangements</div>
+                            <source srcset="images/wedding/weddingIcon-small.jpg" media="(max-width: 37.5em)">
+                            <source srcset="images/wedding/weddingIcon-medium.jpg" media="(max-width: 64em)">
+                            <source srcset="images/wedding/weddingIcon-large.jpg">
+                            <img src="images/wedding/weddingIcon.jpg" alt="Picture of wedding flowers">
+                            <div class="thumbnail">Occasions</div>
                         </picture>
                     </a>
                 </article>
 
-                <article class="wedding">
+                <article class="arrangement">
                     <a href="eventPage.html">
                         <picture>
-                            <!--    <source srcset="images/home-page-small.jpg" media="(max-width: 37.5em)">
-                            <source srcset="images/home-page-medium.jpg" media="(max-width: 64em)">
-                            <source srcset="images/home-page-large.jpg">  -->
-                            <img src="images/wedding/weddingIcon.jpg" alt="Picture of wedding flowers">
-                            <div class="thumbnail">Weddings</div>
+                            <source srcset="images/arrangement/seasonIcon-small.jpg" media="(max-width: 37.5em)">
+                            <source srcset="images/arrangement/seasonIcon-medium.jpg" media="(max-width: 64em)">
+                            <source srcset="images/arrangement/seasonIcon-large.jpg">
+                            <img src="images/arrangement/seasonIcon-large.jpg" alt="Picture of floral arrangement">
+                            <div class="thumbnail">Seasonal Creations</div>
                         </picture>
                     </a>
                 </article>
@@ -109,12 +108,8 @@
         <footer>
             <aside>
                 Rosehill Blooms &#9734;
-                123 Main St. &#9734;
-                Overland Park, KS 59715<br>
-                (406)518-9418 &#9734;
-                Info@MtSpoke.com<br>
-<!--                <a href="resourcePage.html">Sources</a><br>
-                <a href="template.html">Overview Video</a>   -->
+                Overland Park, KS 66062<br>
+                <a href="https://www.instagram.com/rosehill.blooms/">rosehill.blooms on Instagram</a><br>
             </aside>
             <p class="footer-bar">&copy;2019 All Rights Reserved | Rosehill Blooms | <span id="dateToday"></span></p>
         </footer>
