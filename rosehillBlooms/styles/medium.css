@@ -9,29 +9,17 @@ body{
 }
 
   /*-------------- Header ----------------*/
-  header h1 {
-    font-size: 250%;
-    margin-left: 0%;
-    margin-right: 0%;
-  }
 
-  .headerItems {
-      justify-content: space-around;
-    }
-  header .subheading {
-    font-size: 125%;
-    margin-left: 0%;
-  }
 
   /*********** Navigation ****************/
   nav button { display:none; }  /* hamburger button does not need to be shown */
 
   nav{
-    background: #6bb18e; /* Old browsers */
-    background: -moz-linear-gradient(top, #6bb18e 0%, #3b6d4e 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #6bb18e 0%,#3b6d4e 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #6bb18e 0%,#3b6d4e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6bb18e', endColorstr='#3b6d4e',GradientType=0 ); /* IE6-9 */
+    background: #FFF063; /* Old browsers */
+    background: -moz-linear-gradient(top, #FFF063 0%, #D33B6F 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #FFF063 0%,#D33B6F 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #FFF063 0%,#D33B6F 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFF063', endColorstr='#D33B6F',GradientType=0 ); /* IE6-9 */
   }
 
    /* li{
