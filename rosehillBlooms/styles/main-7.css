@@ -8,6 +8,7 @@ body {
     font-family: 'PT Sans', sans-serif;
     font-size: 100%;
     background-color: #FF579F;
+    background-color: #31B3CC;
   /*  padding: 1% 1%;  */
 }
 
@@ -64,8 +65,16 @@ header .subheading {
 }
 
 /***************** Navigation *********************/
-nav {
+/* nav {
     background-color: #FFF063;
+} */
+
+nav{
+    background: #FFF063; /* Old browsers */
+    background: -moz-linear-gradient(top, #FFF063 0%, #D33B6F 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #FFF063 0%,#D33B6F 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #FFF063 0%,#D33B6F 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFF063', endColorstr='#D33B6F',GradientType=0 ); /* IE6-9 */
 }
 
 nav button {
