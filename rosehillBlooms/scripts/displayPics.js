@@ -18,7 +18,7 @@ function storePictureInfo(jsonObj) {
 
     for (var i = 0; i < picName.length; i++)
     {
-        var myAnchor = document.createElement('a');
+        var myAnchor = document.createElement("A");
         myAnchor.target = "_blank";
         myAnchor.href = picName[i].fileName;
 
@@ -26,30 +26,20 @@ function storePictureInfo(jsonObj) {
         myImg.src = picName[i].fileName;
         myImg.alt = "Floral Picture";
 
+        myAnchor.appendChild(myImg);
         myArticle.appendChild(myAnchor);
-        myArticle.appendChild(myImg);
     }
 }
 
-/*
-var myTd1 = document.createElement('td');
-var myTd2 = document.createElement('td');
 
-myTd1.textContent = service[i].type;
-myTd2.textContent = '$' + service[i].price;
 
-myTable.appendChild(myTd1);
-myTable.appendChild(myTd2);
-
-element.attribute = new value
-Change the attribute value of an HTML element
-
-    <a target="_blank" href="images/arrangement/ACS_0002-Icon.jpg">
-        <img src="images/arrangement/ACS_0002-Icon.jpg" alt="Floral Picture">
-
-            function myFunction() {
-            document.getElementById("myAnchor").href = "http://www.cnn.com/";
-            document.getElementById("demo").innerHTML = "The link above now goes to www.cnn.com.";
-        }
+/*<script>
+function myFunction() {
+  var x = document.createElement("A");
+  var t = document.createTextNode("Tutorials");
+  x.setAttribute("href", "https://www.w3schools.com");
+  x.appendChild(t);
+  document.body.appendChild(x);
+}
+</script>
 */
-

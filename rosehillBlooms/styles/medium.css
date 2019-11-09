@@ -138,6 +138,20 @@ body{
         color: black;
     }
 
+/****************** Flower Picture Pages *****************************/
+
+    .flowerPics {
+        margin: 0;
+        flex-flow: wrap;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+
+    .flowerPics img {
+        margin: auto;
+        width: 250px;
+        height: 95%;
+    }
 
 /******************* Adventure Tour Page **************/
 

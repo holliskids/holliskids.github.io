@@ -38,64 +38,18 @@
     }
 
 
-/******************* Main For Gallery *****************/
-    .weatherPics{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-column-gap: 20px;
-        grid-template-rows: 1fr 1fr;
-    }
-
-    .weatherPics .gridItem:hover{
-      box-shadow: 5px 5px 10px #888888;
-    }
-
-/****************** Home Page  ***************/
-
-    .cycleDivide{
-        flex-basis: 100%;
+/**************** Flower Picture Display *************/
+    .flowerPics {
         margin: 0;
-        padding: 2% 1%;
+        justify-content: space-around;
+        align-content: space-around;
     }
 
-    .cycleDivide{
-        background-image: url("../images/bike-montana2-flip-large.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
+    .flowerPics img {
+        margin: auto;
+        width: 330px;
+        height: 95%;
     }
-
-    .saleService{
-        flex-basis: 32%;
-        margin: 2% 1% 2% 0;
-    }
-
-    .events{
-        flex-basis: 32%;
-        margin: 2% 0 2% 1%;
-    }
-
-    .tours{
-        flex-basis: 32%;
-        margin: 2% 1% 2% 1%;
-    }
-
-/******************* Event Page **********************/
-    .cycleDivideEvent h2{
-        padding-top: 10%;
-        font-size: 350%;
-    }
-
-    .cycleDivideEvent h3{
-        font-size: 250%;
-    }
-
-    .cycleDivideEvent{
-        background-image: url("../images/eventPage-large.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-
-
 /******************* Contact Us **********************/
     .formInfo{
         display: flex;
