@@ -1,6 +1,6 @@
 var currentDivision = document.getElementById("column1");
 
-var requestURL = 'data/arrangementPic2.json';
+var requestURL = 'data/boutPics.json';
 console.log(requestURL);
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
