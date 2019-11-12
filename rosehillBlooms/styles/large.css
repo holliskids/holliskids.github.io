@@ -45,7 +45,7 @@
 */
 
 /******************* Contact Us **********************/
-    .formInfo{
+ /*   .formInfo{
         display: flex;
         flex-flow: row nowrap;
         justify-content: flex-start;
@@ -55,33 +55,4 @@
     fieldset {
         flex-basis: 50%;
     }
-
-
-/****************** Sales Page *****************************/
-    .navigation > li {
-        width: 20%;
-        left: -15%;
-        padding: 2.5%;
-        border-right: 3rem solid #48817D;
-        -webkit-transition: left 600ms;
-        -moz-transition: left 600ms;
-        -ms-transition: left 600ms;
-        -o-transition: left 600ms;
-        transition: left 600ms;
-    }
-
-    li.openSesame {
-        left:0px;
-    }
-
-    article.detail{
-       margin: 0 10% 2% 10%;
-    }
-
-    .forSale{
-        background-image: url("../images/bike-montana2-flip-large.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-
-}
+*/

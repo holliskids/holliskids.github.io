@@ -222,75 +222,6 @@ div.transbox {
     margin: 1% 0;
 }
 
-
-/****************** Service Page **************************/
-table {
-    width: 80%;
- /*   background-color: #E7F0ED; */
-}
-
-table, table caption {
-    box-shadow: 10px 10px 40px #653933/*#628ca6*/;
-}
-
-table caption {
-    margin-top: 5%;
-    border: 1px solid #653933/*#666666*/;
-    background-color: #48817D;
-    font-size: 170%;
-    padding: .4em .5em;
-}
-
-table th{
-    background-color: #346E72;
-    color: white;
-    font-size: 120%;
-    padding: .4em;
-}
-
-table, th, td {
-    border: 1px solid #653933;
-    border-collapse: collapse;
-    text-align: center;
-    padding: .5em .5em;
-    margin: auto;
-    margin-bottom: 5%;
-}
-
-
-table tfoot {
-    background-color: #48817D;
-    font-size: 85%;
-}
-
-/****************** Adventure Tour Page ********************/
-.trailInfo li{
-    border-top: none;
-    border-right: none;
-}
-
-.trailInfo{
-    border: 3px groove #653933;
-    margin: 2%;
-}
-/*
-main .trailPic{
-    margin: 0;
-    padding: 0;
-}
-
-main .trailPic img{
-    width: 100%;
-} */
-
-.trailPic h2{
-    padding: 15%;
-    margin: 0;
-    background-image: url("../images/sourdoughTrail-small.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 /****************** Main For Contact Form *************/
 .map{
     margin: 1em 1em 1em 1em;
@@ -318,7 +249,7 @@ legend{
     color: #33654C;
     border-radius: .4em;
 }
-
+/*
 label{
     display: block;
     margin: .5em;
@@ -326,9 +257,9 @@ label{
 
 label span {
     display: block;
-    font-size: .8em;
+    font-size: .8em; */
    /* color: #33654C; */
-    padding-top: .9em;
+/*    padding-top: .9em;
     padding-bottom: .2em;
 }
 
@@ -338,12 +269,12 @@ input.submitBtn {
     border-radius: 7px;
     width: 25%;
     margin: .5em 0;
-    font-size: 1em;
+    font-size: 1em; */
     /*font-family: 'Bree Serif', serif; */
-    padding: .6em;
+/*    padding: .6em;
     background: #653933;
     box-shadow: 4px 4px 10px #666;
-}
+}  */
 
 /******************* Event Page **********************/
 .cycleDivideEvent h2{

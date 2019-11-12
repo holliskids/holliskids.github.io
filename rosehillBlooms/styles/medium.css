@@ -146,76 +146,30 @@ body{
     .flowerPics img {
     }
 
-/******************* Adventure Tour Page **************/
+/******************* About and Contact Page ***************************/
 
-    .trailInfo h3{
-        font-size: 145%;
-        margin-bottom: 0;
-        padding-bottom: 0;
-    }
-
-    .trailInfo ul{
-        font-size: 120%;
-    }
-
-    .trailInfo .sourdough, .trailInfo .emeraldLake{
-        flex-basis: 48%;
-    }
-
-    .tourOptions{
+    .formInfo {
         display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-between;
-        align-items: stretch;
-    }
-
-    .trailPic{
 
     }
 
-   /* main .trailPic img{
-        width: 100%;
+    .map{
+        margin: 1% 0;
     }
 
-    main .trailPic{
+    fieldset{
+        /*   background-color: #C8C8C8; */
+        border-radius: .8em;
+        border: #653933 solid 1px;
         margin: 0;
-        padding: 0;
-    } */
-
-    .trailInfo{
-        border: 3px groove #653933;
-        margin: 1%;
     }
 
-/******************* Event Page **********************/
-    .cycleDivideEvent h2{
-        font-size: 300%;
+    .contact {
+        margin: 1% 2%;
+        flex-basis: 50%;
     }
 
-    .cycleDivideEvent h3{
-       font-size: 200%;
+    .about {
+        margin: 1% 2%;
+        flex-basis: 50%;
     }
-
-    .cycleDivideEvent{
-        background-image: url("../images/eventPage-medium.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-
-
-/******************* Main For Gallery *****************/
-    .weatherPics{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 15px;
-        grid-template-rows: 1fr 1fr 1fr;
-    }
-
-    .weatherPics img{
-        width: 100%;
-        margin-left: 0%;
-        margin-right: 0%;
-    }
-
-
-}
