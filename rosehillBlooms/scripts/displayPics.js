@@ -1,6 +1,6 @@
 var myArticle = document.querySelector('article');
 
-var requestURL = 'data/arrangementPic2.json';
+var requestURL = 'data/arrangementPics2.json';
 console.log(requestURL);
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
@@ -23,7 +23,7 @@ function storePictureInfo(jsonObj) {
         myAnchor.href = picName[i].fileName;
 
         var myImg = document.createElement('img');
-        myImg.src = picName[i].fileName;
+        myImg.src = picName[i].reference;
         myImg.alt = "Floral Picture";
 
         myAnchor.appendChild(myImg);

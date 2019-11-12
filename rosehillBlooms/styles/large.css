@@ -33,17 +33,17 @@
 
 
 /**************** Flower Picture Display *************/
-    .flowerPics {
+  /*  .flowerPics {
         margin: 0;
         justify-content: space-around;
         align-content: space-around;
     }
 
     .flowerPics img {
-        margin: auto;
-        width: 330px;
         height: 95%;
     }
+*/
+
 /******************* Contact Us **********************/
     .formInfo{
         display: flex;
