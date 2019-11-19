@@ -85,20 +85,17 @@ body{
     }
 
 /****************** Main For Home Page ********************/
-       div.websiteBody1 {
-        margin-top: .2em;
-    }
-
     .options {
         display: flex;
         align-items: baseline;
     }
 
-  /*  main div.websiteBody1, div.websiteBody2 {
-        display: ;
+     main div.websiteBody1, div.websiteBody2 {
+        margin-top: .2em;
+        display: flex;
         flex-direction: row;
         align-content:space-around;
-    }*/
+    }
 
     .boutt img, .corsage img, .arrangement img, .wedding img{
         width: 98%;
