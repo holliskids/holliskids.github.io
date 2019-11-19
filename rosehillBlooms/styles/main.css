@@ -178,7 +178,22 @@ div.transbox {
     color: black;
 }
 
+.buttonTN{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ /*   padding: 3%; */
+    background-color: #ffffff;
+    border: 2px solid black;
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+    color: black;
+}
 
+.buttonTN button {
+    padding: .3em;
+}
 /****************** Flower Picture Pages *****************************/
 
 /*.flowerPics {
