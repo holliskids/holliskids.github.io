@@ -41,7 +41,7 @@ function storePictureInfo(jsonObj) {
 
     var newIndex = createHtmlPics(0, numInColumn, jsonObj);
     currentDivision = document.getElementById("column2");
-    newIndex = createHtmlPics(newIndex, numInColumn+newIndex+1, jsonObj);
+    newIndex = createHtmlPics(newIndex, numInColumn+newIndex, jsonObj);
     currentDivision = document.getElementById("column3");
     newIndex = createHtmlPics(newIndex, picName.length, jsonObj);
 }
