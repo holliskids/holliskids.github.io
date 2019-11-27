@@ -135,15 +135,15 @@ body{
         padding: 0 0;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-        align-content: space-around;
+        justify-content: center;
+        align-content: center;
     }
     
     .flowerPics img{
       width: auto;
-      max-width: 100%;
+      max-width: 97%;
       margin: 1% 0;
-      padding: 0 1.5%;
+      padding: 0 0;
     }
     
     div#column1, div#column2, div#column3{

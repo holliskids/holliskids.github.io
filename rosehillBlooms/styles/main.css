@@ -29,7 +29,7 @@ header, nav, main, footer {
     color: #B32B65;
     padding: .5em;
     margin-bottom: 0;
-    text-align: center
+    text-align: center;
    /* display: flex;
     align-items:flex-end; */
 }
