@@ -2,7 +2,8 @@
 /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
 
   header, nav, main, footer {
-    max-width: none;/* the comma means apply the following CSS declarations to all of the listed elements */
+    max-width: 1280px;
+    margin: auto;/* the comma means apply the following CSS declarations to all of the listed elements */
     /* Declare the maximum width and other main element rules to limit the stretch on wide views */
   }
 
